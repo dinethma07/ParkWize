@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_ManageVehicle"
+        android:name="com.example.parkwizproject.ui.ManageVehicle"
+        android:label="@string/ManageVehicle"
+        tools:layout="@layout/fragment_manage_vehicle" />
+    <fragment
+        android:id="@+id/nav_ManageParking"
+        android:name="com.example.parkwizproject.ui.ManageParking"
+        android:label="@string/manage_parking"
+        tools:layout="@layout/fragment_manage_parking" />
+    <fragment
+        android:id="@+id/nav_attendant"
+        android:name="com.example.parkwizproject.ui.attendant"
+        android:label="@string/manage_park"
+        tools:layout="@layout/fragment_attendant" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.parkwizproject.ui.FirstPage"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_first_page" />
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/nav_slideshow"-->
+    <!--        android:name="com.example.parkwizproject.ui.slideshow.SlideshowFragment"-->
+    <!--        android:label="@string/menu_slideshow"-->
+    <!--        tools:layout="@layout/fragment_slideshow" />-->
+</navigation>

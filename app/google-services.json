@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "506079319199",
+    "firebase_url": "https://parkwiz-f71d7-default-rtdb.firebaseio.com",
+    "project_id": "parkwiz-f71d7",
+    "storage_bucket": "parkwiz-f71d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506079319199:android:5e270e712c40dfda89beaa",
+        "android_client_info": {
+          "package_name": "com.example.parkwizproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506079319199-ep6nd5ltblnlaltrtso8esm502am1gt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkwizproject",
+            "certificate_hash": "6658e6173094718eb7ceb3c5b172481f0d2572f0"
+          }
+        },
+        {
+          "client_id": "506079319199-j8sc258012e7phse3f6nfniu28idcqfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkwizproject",
+            "certificate_hash": "86af5ac25361f3708839493019e3b56772f7d28a"
+          }
+        },
+        {
+          "client_id": "506079319199-72bj9fhm0nv1vsjso4s46hr00a9ogo1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfx7XiZRG7TrJSk2SmTAVlN9J8xXHjyjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506079319199-49hlu5rm6o6paipqrhihu2llg7i60b5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

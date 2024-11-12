@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/ManageVehicle"
+            android:icon="@drawable/icon_car"
+            android:title="@string/ManageVehicle" />
+        <item
+            android:id="@+id/ManageParking"
+            android:icon="@drawable/icon_parking"
+            android:title="@string/ManageParking" />
+        <item
+            android:id="@+id/History"
+            android:icon="@drawable/icon_history"
+            android:title="@string/History" />
+        <item
+            android:id="@+id/Attendant"
+            android:icon="@drawable/icon_security_guard"
+            android:title="@string/switch_to_attendant" />
+        <item
+            android:id="@+id/Admin"
+            android:icon="@drawable/icon_admin"
+            android:title="@string/switch_to_admin" />
+    </group>
+</menu>
